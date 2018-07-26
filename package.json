@@ -1,0 +1,9 @@
+{
+  "name": "jj-portal",
+  "version": "0.1.0",
+  "description": "JJ Portal",
+  "main": "index.js",
+  "repository": "https://github.com/janeczkojan/jj-portal.git",
+  "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
+  "private": true
+}
