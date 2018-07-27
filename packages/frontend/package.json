@@ -1,7 +1,7 @@
 {
   "name": "@jj-portal/frontend",
   "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "src/index.js",
   "dependencies": {
