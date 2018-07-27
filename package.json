@@ -1,0 +1,21 @@
+{
+  "name": "jj-portal",
+  "version": "1.0.0",
+  "repository": "https://github.com/janeczkojan/jj-portal.git",
+  "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
+  "private": true,
+  "scripts": {
+    "lerna": "lerna",
+    "lerna-init": "lerna init",
+    "lerna-bootstrap": "lerna bootstrap",
+    "lerna-prepare": "lerna run prepare",
+    "build": "npm-run-all lerna-prepare lerna-bootstrap"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.0.0-rc.0",
+    "npm-run-all": "^4.1.3"
+  }
+}
