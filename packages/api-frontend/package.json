@@ -2,10 +2,8 @@
   "name": "@jj-portal/api-frontend",
   "version": "0.2.0",
   "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
+  "private": true,
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "nodemon": "^1.18.3"
   },
@@ -21,7 +19,6 @@
   "scripts": {
     "start-dev": "cross-env ENV=dev nodemon ./index.js",
     "start-production": "cross-env ENV=production node ./index.js",
-    "prepare": "echo 'API Frontend prepare'",
-    "publish": "prepare"
+    "prepare": "echo 'API Frontend prepare'"
   }
 }

@@ -1,10 +1,8 @@
 {
   "name": "@jj-portal/frontend",
   "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
+  "private": true,
   "version": "0.1.4",
-  "publishConfig": {
-    "access": "public"
-  },
   "main": "src/index.js",
   "dependencies": {
     "react": "^16.4.1",
@@ -16,7 +14,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prepare": "react-scripts build",
-    "publish": "prepare"
+    "prepare": "react-scripts build"
   }
 }

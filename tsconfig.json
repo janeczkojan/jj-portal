@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "experimentalDecorators": true,
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@jj-portal/*": ["./*/src"]
+    }
+  }
+}

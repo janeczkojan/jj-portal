@@ -1,19 +1,16 @@
 {
   "name": "@jj-portal/utils-client",
   "version": "0.2.0",
+  "private": true,
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
-  "publishConfig": {
-    "access": "public"
-  },
   "devDependencies": {
     "typescript": "^2.9.2"
   },
   "scripts": {
     "watch": "tsc -p tsconfig.build.json --watch",
-    "prepare": "tsc -p tsconfig.build.json",
-    "publish": "prepare"
+    "prepare": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@types/autobind-decorator": "^2.1.0",
