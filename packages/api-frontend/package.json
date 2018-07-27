@@ -1,6 +1,6 @@
 {
   "name": "@jj-portal/api-frontend",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
   "main": "index.js",
   "publishConfig": {
@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start-dev": "cross-env ENV=dev nodemon ./index.js",
-    "start-production": "cross-env ENV=production node ./index.js"
+    "start-production": "cross-env ENV=production node ./index.js",
+    "publish": "prepare"
   }
 }
