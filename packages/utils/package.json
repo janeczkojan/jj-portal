@@ -1,6 +1,6 @@
 {
   "name": "@jj-portal/utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "author": "Jan Janeczko <janeczko.jan@hotmail.com>",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "watch": "tsc -p tsconfig.build.json --watch",
-    "prepare": "tsc -p tsconfig.build.json"
+    "prepare": "tsc -p tsconfig.build.json",
+    "publish": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@types/autobind-decorator": "^2.1.0",
